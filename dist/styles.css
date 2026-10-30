@@ -5,3 +5,18 @@
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 .profile-switch{width:auto;height:auto;min-height:38px;border-radius:20px;padding:7px 12px;display:flex;gap:7px;align-items:center;max-width:200px;font:700 12px DM,sans-serif}.profile-switch span:last-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.profile-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin:0 0 25px}.profile-card{display:grid;justify-items:center;gap:12px;padding:24px 15px;border:1px solid var(--line);background:white;color:var(--ink);border-radius:19px;text-align:center;overflow-wrap:anywhere}.profile-card.selected{border:2px solid var(--purple);background:var(--soft)}.profile-card small{color:var(--purple);font-size:11px}.profile-avatar{font-size:35px;background:#f6f1fb;width:70px;height:70px;border-radius:50%;display:grid;place-items:center}.profile-card strong{font-size:16px}#create-profile .field,#edit-profile .field{margin:16px 0}#create-profile select,#edit-profile select{font-size:23px}.profile-switch span:first-child{font-size:19px}@media(max-width:720px){.profile-switch{max-width:155px;font-size:11px}.profile-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.profile-card{padding:20px 10px}.header-right{gap:0}}
 #sidebar{overflow-y:auto}.profile-card:focus-visible{outline:3px solid #ae83de;outline-offset:3px}
+
+/* Navigation icons: fixed vector dimensions across browsers and Android. */
+.nav-icon{display:block;width:26px;height:26px;flex:0 0 26px;color:inherit}
+.nav-icon-aia{display:grid;place-items:center;font:800 13px/1 Manrope,DM,sans-serif;letter-spacing:-.7px}
+.nav-item{min-height:48px;gap:12px}.nav-item>span:last-child{min-width:0}
+.modal-nav .nav-icon{width:28px;height:28px;flex-basis:28px}
+.modal-nav .nav-icon-aia{font-size:14px}
+@media(max-width:720px){
+.bottom-nav button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;min-height:54px;color:#746780}
+.bottom-nav .nav-icon{width:28px;height:28px;flex:0 0 28px}
+.bottom-nav .nav-icon-aia{font-size:14px}
+.bottom-nav button>span:last-child{font-size:11px;line-height:1.25}
+.modal-nav{inset:67px 0 calc(74px + env(safe-area-inset-bottom));padding:16px 20px}
+.modal-nav .nav-item{min-height:54px;padding:12px 14px;color:#62576f}
+}
