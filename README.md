@@ -37,3 +37,6 @@ Selector en cabecera y sección Perfiles: crear con nombre/avatar, renombrar y c
 La exportación incluye solo el perfil activo; importar combina el historial en el perfil activo sin crear ni sobrescribir otros. No hay contraseña ni privacidad entre personas que comparten navegador. No se elimina ningún historial ni archivo al cambiar perfiles.
 
 Prueba adicional: `node tests/profiles.cjs` (migración, aislamiento, nombres, archivos heredados, recarga y pestañas).
+
+## Mi piano · Manual (v4)
+Sección propia con icono, acceso desde el menú y desde el bloque Mi piano. Incluye únicamente la parte española del manual VEVOR BD-881D aportado (páginas 85–104 del PDF original, conservadas sin cambiar su contenido), en `dist/manuals/vevor-bd-881d-es.pdf`. Guía de diez grupos de controles, catálogos enlazados y trece FAQ con referencias al PDF español. Los controles se accionan en el instrumento; la app no envía órdenes para cambiar sus ajustes ni LED.

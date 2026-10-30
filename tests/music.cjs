@@ -1,7 +1,7 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert');
 const node={classList:{remove(){},toggle(){}},addEventListener(){},style:{}};
 const sandbox={document:{querySelector:()=>node,querySelectorAll:()=>[],addEventListener(){}},localStorage:{values:new Map(),getItem(k){return this.values.get(k)||null},setItem(k,v){this.values.set(k,v)}},location:{hash:''},window:{addEventListener(){}},console,Set,Map};
-let code=fs.readFileSync('dist/app.js','utf8');code=code.replace(/^import .*?;\n/,'');code=code.slice(0,code.lastIndexOf("page=pages.some"));
+let code=fs.readFileSync('dist/app.js','utf8');code=code.replace(/^import .*?;\n/gm,'');code=code.slice(0,code.lastIndexOf("page=pages.some"));
 vm.createContext(sandbox);vm.runInContext(fs.readFileSync('dist/profiles.js','utf8').replaceAll('export ',''),sandbox);vm.runInContext(code,sandbox);
 vm.runInContext(`
 if(lessons.length!==12)throw Error('Expected twelve reviewed lessons');
