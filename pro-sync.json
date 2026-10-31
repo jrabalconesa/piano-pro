@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "app": "piano-pro",
+  "repository": "jrabalconesa/piano-pro",
+  "site_project_id": "appgprj_6ae21fdb001081919a77b717c76ea78a",
+  "updated": "2026-10-31",
+  "files": {
+    "dist/app.js": "5e108f6b947a1f23395e9dd8e366b878802045ad5e11293f79cdca4db2ecf3cd",
+    "dist/index.html": "57b5b079aabacae4a2ea7b56d2f8ba7c16eecde9e4eb4edd22981657f3d6e22e",
+    "dist/profiles.js": "3f2ee999fb10c65911f934aa2ec15bff2ca023c1e3109b6d674dd91934ee3374",
+    "dist/favicon.ico": "873029d27d50652c37d051292a00029a3c1faf90a5223dbb7ea988cf8f8b1db4",
+    "dist/pro-transfer.js": "9332a8b0d708a3b642a159af740e2bb8da321b23d0d715ab8681516989971913",
+    "dist/styles.css": "59a2518db7afe5ca0724cb8620de2b6f7ce21a930a9351c9d2bf9c6eaeea38e2",
+    "dist/manual.js": "a7be68a101507ca8c41c06fd3424cff71dec23fefa84c5530133e48514a37886",
+    "dist/apple-touch-icon.png": "79e746cc2adc9d73f09a623f5e036a52058e0d9180a3623038c16b8420367f28",
+    "dist/manifest.webmanifest": "5f070f5c91eb3e47f5ec1cc2f73a7895d872403790f59f15c3dcccadc9845988",
+    "dist/manuals/vevor-bd-881d-es.pdf": "9cb3295af1d14d944639cfd6ce4ab6a3fa999391ace0d1882fee5ffcadfad691",
+    "dist/assets/icon.svg": "2f24df25bddca2db9386b5f462d54fd38746be0798f0ddd64fd1d2a4b44d3c7a",
+    "dist/app-icons/logo-16-v20261031.png": "4ff2276076c34b6fe7d4393f9a72ea7957f2084f85727c85992b5b164b702cb7",
+    "dist/app-icons/logo-maskable-512-v20261031.png": "84b68035962842c95d7f9d93c26db821a7cd95483419106ceb6b27d5ad08195b",
+    "dist/app-icons/logo-32-v20261031.png": "5ab89f1ab9773072f66876818c7d74c39cc4316d20fcc940774fd2f9d2ef4a55",
+    "dist/app-icons/logo-192-v20261031.png": "0f5d7f0cd98d83719c805af79027bf153520c581582efa7293ac1cf821049ccb",
+    "dist/app-icons/logo-48-v20261031.png": "55579a3163c20985d2dcf1a7b2b8ad4b6862a27f470e6abf7f2244d0070b188e",
+    "dist/app-icons/logo-180-v20261031.png": "79e746cc2adc9d73f09a623f5e036a52058e0d9180a3623038c16b8420367f28",
+    "dist/app-icons/logo-512-v20261031.png": "f3ecd0fe77673cb68be4288adb13b8b30e33554dd44e5fdd1e0f0458a20305fb",
+    "dist/assets/fonts/manrope-800.ttf": "b8f802f05b322a7345805f5b89f8bb976604cc719a91530918d5ce3c47160950",
+    "dist/assets/fonts/dm-sans-600.ttf": "b79a2ea7a38f33fd96a282fadb9ce97626bb0724a44d21075859f0e50239993a",
+    "dist/assets/fonts/dm-sans-400.ttf": "b0ae3e89a7d3ef2b1838bb4b1ceb0b17cc3435af061eee809d76aa623ff116e9",
+    "dist/assets/fonts/dm-sans-700.ttf": "2a8e7f713ee79fbccdef3cef5c787aff47580299f7da60144961e7db2ec08211"
+  },
+  "policy": "three-way: compare both against these hashes; transfer one-sided changes; stop on conflicting edits; preserve platform adapters and Site audience; never sync user data automatically"
+}
