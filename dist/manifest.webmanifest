@@ -1,0 +1,31 @@
+{
+  "id": "./",
+  "name": "Piano PRO",
+  "short_name": "Piano PRO",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#7952b3",
+  "icons": [
+    {
+      "src": "https://jrabalconesa.github.io/piano-pro/app-icons/logo-192-v20261031.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://jrabalconesa.github.io/piano-pro/app-icons/logo-512-v20261031.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://jrabalconesa.github.io/piano-pro/app-icons/logo-maskable-512-v20261031.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
